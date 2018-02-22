@@ -1,0 +1,38 @@
+JavaScript Notas
+
+- Console do JavaScript abre em qualquer navegador com o inspensionar elemento.
+
+console.log é usado para exibir conteúdo para o console do JavaScript
+
+console.log((10 * 4) + 10 - 8); igual a 42
+
+- var 
+	Quando cria uma variável, você escreve o nome da variável utilizando camelCase (a primeira palavra em minúsculo e as palavras seguintes, em maiúsculo).
+
+var celsius = 12;
+var fahrenheit = celsius * 1.8 + 32;/* convert celsius to fahrenheit here */
+
+console.log(fahrenheit/* print out result here */);
+
+Código		Caractere
+\			\ (barra invertida)
+\"			'' (aspas duplas)
+\'			' (aspas simples)
+\n			nova linha
+\t			tab
+
+ - null refere-se ao "valor de nada", enquanto undefined refere-se à "ausência de valor".
+
+  NaN significa "Not-A-Number" e é constantemente retornado indicando um erro com operações numéricas. Por exemplo, se você escreveu um código que fez um cálculo matemático e o cálculo falhou ao produzir um número válido, NaN provavelmente será retornado.
+
+  - Igualdade estrita
+		Em vez disso, em JavaScript, é melhor utilizar igualdade estrita para ver se números, strings ou booleanos, etc. são idênticos em tipo e valor, sem realizar a conversão de tipos primeiramente. Para fazer uma comparação estrita, simplesmente adicione mais um símbolo de igual = ao final dos operadores == e !=
+		1 === 1 que vai dar diferente se fizer "1" === 1
+		1 !== "1" vai dar true, posi eles são diferentes, um é string e outro é numero
+
+Código em JavaScript
+var bill = 10.25 + 3.99 + 7.15;
+var tip = bill * 0.15;
+var total = bill + tip;
+console.log("$"+total.toFixed(2));
+

@@ -74,3 +74,24 @@ if (musicians <= 0){
 	||			Lógico OU		valor1 || valor2	Retorna verdadeiro se valor1 ou valor2 (ou mesmo ambos!) forem avaliados como verdadeiro.
 	!			Lógico NÃO		!valor1				Retorna o oposto do valor1. Se valor1 é verdadeiro, então !valor1 é falso.
 
+ - IF com negação e operador logico
+
+ var balance = 350.00;
+var checkBalance = true;
+var isActive = false;
+
+// your code goes here
+if(checkBalance){
+    if(isActive && balance > 0){
+        console.log("Your balance is $ "+ balance.toFixed(2));
+    } else if(!isActive){
+        console.log("Your account is no longer active.");
+    } else if(balance === 0){
+        console.log("Your account is empty.");
+    } else{
+        console.log("Your balance is negative. Please contact bank.");
+    }
+} else{
+    console.log("Thank you. Have a nice day!");
+}
+

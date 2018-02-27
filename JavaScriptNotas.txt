@@ -139,3 +139,9 @@ while (start < 10) { // quando parar
   start = start + 2; // como ir para o próximo item
 }
 
+ For
+
+ for ( start; stop; step ) {
+  // faça isto
+}
+

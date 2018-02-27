@@ -130,3 +130,12 @@ switch (option) {
   Importante lembrar que sem o break, tudo que vem a baixo do switch também vai ser colocado no programa.
   depois do ultimo break Você pode adicionar uma cláusula default para uma declaração switch, e ela será executada 
   	quando nenhum dos valores combinar com o valor da expressão switch.
+
+  - Whhile 
+
+  var start = 0; // quando começar
+while (start < 10) { // quando parar
+  console.log(start);
+  start = start + 2; // como ir para o próximo item
+}
+

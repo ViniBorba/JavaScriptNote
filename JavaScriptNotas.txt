@@ -95,3 +95,38 @@ if(checkBalance){
     console.log("Thank you. Have a nice day!");
 }
 
+
+ - Operador ternário:
+
+ condicional ? (se condicional é verdadeiro) : (se condicional é falso)
+
+ Para usar o operador ternário, primeiro forneça uma declaração condicional do lado esquerdo de ?. Então, entre o ? e :, escreva o código que seria executado 
+ se a condição fosse verdadeira e, ao lado direito de :, escreva o código que seria executado se a condição fosse falsa.
+
+  - Declaração switch
+
+  var option = 3;
+
+switch (option) {
+  case 1:
+    console.log("Você selecionou a opção 1.");
+    break;
+  case 2:
+    console.log("Você selecionou a opção 2.");
+    break;
+  case 3:
+    console.log("Você selecionou a opção 3.");
+    break;
+  case 4:
+    console.log("Você selecionou a opção 4.");
+    break;
+  case 5:
+    console.log("Você selecionou a opção 5.");
+    break;
+  case 6:
+    console.log("Você selecionou a opção 6.");
+    break; // tecnicamente, não necessário
+}
+  Importante lembrar que sem o break, tudo que vem a baixo do switch também vai ser colocado no programa.
+  depois do ultimo break Você pode adicionar uma cláusula default para uma declaração switch, e ela será executada 
+  	quando nenhum dos valores combinar com o valor da expressão switch.

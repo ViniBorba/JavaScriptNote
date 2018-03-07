@@ -139,7 +139,11 @@ while (start < 10) { // quando parar
   start = start + 2; // como ir para o próximo item
 }
 
- For
+ - For
+
+ for (var k = 0; k < 200; k++) {
+    console.log(k);
+}
 
  for ( start; stop; step ) {
   // faça isto
@@ -153,4 +157,20 @@ x -= 6 // same as x = x - 6
 x *= 2 // same as x = x * 2
 x /= 5 // same as x = x / 5
 
- - 
+ - A porra começa a ficar séria.
+ FUNÇÃO EM JavaScript, um trecho de código que por argumentos (PARAMETRO) transforma uma entrada em uma saída que escrevi nesse trecho
+ Parâmetros x argumentos : PARAMENTRO É NA MINHA FUNÇÃO, ARGUMENTO É QUANDO USO A FUNÇÃO. QUE VAI ENTRE ()
+ *Funções empacotam o código para que você possa facilmente utilizar (e reutilizar) um bloco de código. 
+ *Parâmetros são variáveis utilizadas para armazenar dados que são passados para a função utilizar. 
+ *Argumentos são os dados propriamente ditos, passados para a função quando ela é invocada
+
+ // x e y são parâmetros nesta declaração de função
+function add(x, y) {
+  // corpo da função
+  var sum = x + y;
+  return sum; // comando return
+}
+
+// 1 e 2 são passados para a função como argumentos
+var sum = add(1, 2);
+

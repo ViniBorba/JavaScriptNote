@@ -195,4 +195,35 @@ console.log(laugh(30));
 para ver se consegue encontrar o identificador. Isso continuará sendo feito até que ele alcance o escopo global.
   Identificadores globais são uma má idéia. Eles podem levar a nomes ruins para variáveis, conflito de nomes de variáveis e código confuso.
 
- - 
+ - hoists é em JavaScript a capacidade da maquina que roda o código tranferir para cima todas as funções e variaveis, assi não importa onde vc declarou, se antes ou depois
+
+ - expressão de função é quando contruo uma função em uma variavel (louco essa porra!)
+ 	 	var catSays = function(max)  É uma função anônima, uma função sem nome, e você a armazenou em uma variável chamada catSays.
+
+ - Expressões de função inline
+
+ 		// expressão de função anônima
+		var doSomething = function(y) {
+		  return y + 1;
+		};
+
+
+		// expressão de função nomeada
+		var doSomething = function addOne(y) {
+		  	return y + 1;
+		};
+
+		// para qualquer uma das definições acima, chame a função da seguinte maneira:
+		doSomething(5);
+
+		// a declaração de função que recebe dois argumentos: uma função para exibir
+		// uma mensagem, juntamente ao nome de um filme
+		function movies(messageFunction, name) {
+		  messageFunction(name);
+		}
+
+		// chama a função movies, passa a função e o nome do filme
+		movies(function displayFavorite(movieName) {
+		  console.log("My favorite movie is " + movieName);
+		}, "Finding Nemo");
+

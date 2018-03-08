@@ -174,3 +174,25 @@ function add(x, y) {
 // 1 e 2 são passados para a função como argumentos
 var sum = add(1, 2);
 
+ISSO FUNCIONA!!!!!
+
+function laugh(num){
+    var risada = "";
+    for(var x = 0; x < num; x++){
+        risada = risada + "ha";
+    }
+    return risada+"!";
+}
+console.log(laugh(30));
+
+ - Scope Librarian (SCOPO)
+  Scopo é o lugar dentro das funções onde a variavel é declarado, tipo o private do Java.
+  Funciona a variavel Global funciona para qlq coisa que estiver dentro da função onde ela foi declarada.
+
+  Se um indentificador é declarado em escopo global, ele estará disponível em qualquer lugar.
+  Se um identificador é declarado em um escopo de função, ele estará disponível na função em que foi declarado (mesmo em funções declaradas dentro de outra função).
+  Ao tentar acessar um identificador, o mecanismo do JavaScript primeiramente olhará a função atual. Se ele não achar nada, continuará na próxima função em camada mais externa,
+para ver se consegue encontrar o identificador. Isso continuará sendo feito até que ele alcance o escopo global.
+  Identificadores globais são uma má idéia. Eles podem levar a nomes ruins para variáveis, conflito de nomes de variáveis e código confuso.
+
+ - 

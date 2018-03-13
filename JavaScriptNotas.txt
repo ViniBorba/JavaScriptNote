@@ -249,5 +249,14 @@ Proŕiedades:
 	var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
 	donuts.push("powdered"); // mover "powdered" para o fim da array `donuts`
 
-	
+	.pop() - remover elementos do fim de uma array.
+	var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled", "powdered"];
+	donuts.pop(); // retira "powdered" do fim da array `donuts`
+
+	.splice() - remove, muda, tira e troca elementos de um array;
+	O primeiro argumento representa o índice inicial de onde você quer alterar a array, o segundo argumento representa o número de 
+	elementos que você quer remover e o restante dos argumentos representam os elementos que você quer adicionar.
+	var months = ['Jan', 'March', 'April', 'June'];
+	!!!!!months.splice(1, 0, 'Feb');//vai na posição 1 do array, apaga 0 elementos a partir dessa posição e coloca 'Feb' (poderia ter mais elementos) depois da posição 1 !!!!!
+	months.splice(-3, 0, 'Feb')//Vai no elemento -3, começo a contar de trás para frente os elementos do array
  

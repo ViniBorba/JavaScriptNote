@@ -227,4 +227,27 @@ para ver se consegue encontrar o identificador. Isso continuará sendo feito at�
 		  console.log("My favorite movie is " + movieName);
 		}, "Finding Nemo");
 
- - 
+	!!!!! Isso de função inline é criar uma função que eu passo como se fosse um PARAMENTRO, ou seha, um dos meus PARAMENTRO é uma função!!!!!!
+
+ - Array 
+// cria o array `mixedData` com tipos de dados variados
+var mixedData = ["abcd", 1, true, undefined, null, "all the things"];
+
+// cria uma array `arraysInArrays`, composta de três arrays
+var arraysInArrays = [
+  [1, 2, 3], 
+  ["Julia", "James"], 
+  [true, false, true, false]
+];
+
+donuts[1] = "glazed cruller"; // muda o segundo elemento no array `donuts` para "glazed cruller"
+
+Proŕiedades: 
+	.length - número de elementos na array. Também serve para Strings
+
+	.push() - coloca um elemento no fim do array.
+	var donuts = ["glazed", "chocolate frosted", "Boston creme", "glazed cruller", "cinnamon sugar", "sprinkled"];
+	donuts.push("powdered"); // mover "powdered" para o fim da array `donuts`
+
+	
+ 
